@@ -1,103 +1,823 @@
 {
-  "version": 1,
-  "updated": "2026-11-03",
-  "note": "Breaking events for Neta Giri. Satire only: every person, party and company is invented. Effects use the same keys as the rest of the game (pop, media, loy, white, black, corr, heat, scandal, karma, stress, rival, b:{far,you,tra,urb,wom,wor}).",
-  "events": [
+ "version": 1,
+ "updated": "2026-11-04",
+ "note": "Breaking events for Neta. Satire only: every person, party and company is invented. Effects use the same keys as the rest of the game (pop, media, loy, white, black, corr, heat, scandal, karma, stress, rival, b:{far,you,tra,urb,wom,wor}).",
+ "events": [
+  {
+   "id": "live_exitpoll",
+   "era": "Election week",
+   "title": "Seven exit polls, seven answers",
+   "min": 0,
+   "text": "Every channel has an exit poll. Each one gives a different party a landslide. One poll has your party at 140% of the seats.",
+   "ch": [
     {
-      "id": "live_exitpoll",
-      "era": "Election week",
-      "title": "Seven exit polls, seven answers",
-      "min": 0,
-      "text": "Every channel has an exit poll. Each one gives a different party a landslide. One poll has your party at 140% of the seats.",
-      "ch": [
-        { "l": "Celebrate early", "s": "Laddoos ordered. Risky.", "fx": { "media": 2, "stress": -3, "rival": 3 }, "r": "The laddoos arrived before the results did." },
-        { "l": "Call all polls 'sponsored'", "s": "Safe and sour.", "fx": { "media": -1, "loy": 2 }, "r": "Your statement was itself sponsored, by your own party." },
-        { "l": "Say nothing", "s": "Wait for counting.", "fx": { "karma": 2 }, "r": "Silence. The anchors found it suspicious." }
-      ]
+     "l": "Celebrate early",
+     "s": "Laddoos ordered. Risky.",
+     "fx": {
+      "media": 2,
+      "stress": -3,
+      "rival": 3
+     },
+     "r": "The laddoos arrived before the results did."
     },
     {
-      "id": "live_deepfake",
-      "era": "Social media",
-      "title": "A deepfake of you is dancing",
-      "min": 0,
-      "text": "A video of you dancing at a wedding you never attended has 4 million views. The dancing is better than yours.",
-      "ch": [
-        { "l": "File a police complaint", "s": "Cyber cell. Slow.", "fx": { "media": 1, "stress": 3 }, "r": "The cyber cell asked you to forward the video to them. Forty times." },
-        { "l": "Claim it is real", "s": "Youth love it.", "fx": { "pop": 3, "b": { "you": 5 }, "media": -1, "karma": -2 }, "r": "You are now booked for three weddings." },
-        { "l": "Make a deepfake of the rival", "s": "IT cell. Black ₹10L.", "fx": { "black": -10, "rival": -6, "scandal": 4, "corr": 2 }, "r": "His video is worse. Yours is still trending." }
-      ]
+     "l": "Call all polls 'sponsored'",
+     "s": "Safe and sour.",
+     "fx": {
+      "media": -1,
+      "loy": 2
+     },
+     "r": "Your statement was itself sponsored, by your own party."
     },
     {
-      "id": "live_onion",
-      "era": "Prices",
-      "title": "Onions cost more than petrol",
-      "min": 0,
-      "text": "Onion prices have tripled. A vendor in your constituency is selling them on EMI.",
-      "ch": [
-        { "l": "Open subsidised onion stalls", "s": "₹20L. Long queues, good photos.", "fx": { "white": -20, "pop": 4, "b": { "wom": 4, "wor": 3 } }, "r": "The queue was longer than the onion supply." },
-        { "l": "Blame hoarders", "s": "Traders angry.", "fx": { "b": { "tra": -5, "wor": 2 }, "media": 1 }, "r": "The hoarders sent you a sack of onions. As a warning." },
-        { "l": "Say you don't eat onions", "s": "A classic.", "fx": { "media": -4, "pop": -2, "b": { "urb": -3 } }, "r": "The clip was set to music by evening." }
-      ]
-    },
-    {
-      "id": "live_heatwave",
-      "era": "Weather",
-      "title": "Heatwave on polling day",
-      "min": 1,
-      "text": "It is 47 degrees. Voters want water, shade and a reason to step out.",
-      "ch": [
-        { "l": "Water booths at every station", "s": "₹15L. Turnout up.", "fx": { "white": -15, "pop": 3, "karma": 3 }, "r": "Your booths had the coldest water and the warmest welcome." },
-        { "l": "Branded caps and umbrellas", "s": "Black ₹10L. Code-of-conduct grey zone.", "fx": { "black": -10, "pop": 2, "heat": 4, "corr": 2 }, "r": "The caps were confiscated. The umbrellas were not." },
-        { "l": "Stay in the AC", "s": "Rest.", "fx": { "stress": -6, "pop": -2 }, "r": "A photo of you in a cooled car went viral for the wrong reasons." }
-      ]
-    },
-    {
-      "id": "live_cricket",
-      "era": "Sport",
-      "title": "The team wins the World Cup",
-      "min": 0,
-      "text": "The national team has won. Every leader in the country is rushing to be in the trophy photo.",
-      "ch": [
-        { "l": "Fly to the airport welcome", "s": "₹10L. Elbow your way in.", "fx": { "white": -10, "pop": 3, "b": { "you": 4 }, "media": 2 }, "r": "You are in the photo, partly. Your left ear is very popular." },
-        { "l": "Announce a stadium in your name", "s": "Bold.", "fx": { "media": -3, "aura": 2, "b": { "you": -2 } }, "r": "The players were asked about it. They smiled politely." },
-        { "l": "Just tweet congratulations", "s": "Humble.", "fx": { "karma": 2 }, "r": "Your tweet had a typo in the captain's name." }
-      ]
-    },
-    {
-      "id": "live_ai_jobs",
-      "era": "Economy",
-      "title": "Chatbots take the call-centre jobs",
-      "min": 1,
-      "text": "A call-centre park in the city has replaced half its staff with an AI that speaks eleven languages and never asks for a raise.",
-      "ch": [
-        { "l": "Promise an AI skilling mission", "s": "₹20L. Urban youth like it.", "fx": { "white": -20, "b": { "you": 5, "urb": 3 }, "media": 2 }, "r": "The mission's website was built by the same AI." },
-        { "l": "Demand a ban on chatbots", "s": "Workers cheer.", "fx": { "b": { "wor": 5, "urb": -4 }, "media": -1 }, "r": "You read the speech off a chatbot. Someone noticed." },
-        { "l": "Invest quietly in the AI firm", "s": "Black ₹20L.", "fx": { "black": -20, "corr": 3, "scandal": 2 }, "r": "Your stake tripled. So did the questions." }
-      ]
-    },
-    {
-      "id": "live_bridge",
-      "era": "Infrastructure",
-      "title": "The new bridge falls before its opening",
-      "min": 1,
-      "text": "A bridge that was due to be inaugurated next week has collapsed into the river. The ribbon is still on order.",
-      "ch": [
-        { "l": "Suspend the junior engineer", "s": "Classic.", "fx": { "media": -2, "karma": -3 }, "r": "The engineer was suspended. The contractor got the rebuild contract." },
-        { "l": "Order a real audit", "s": "Clean, but your party funds that contractor.", "fx": { "karma": 6, "media": 3, "loy": -5, "rel": { "tycoon": -8 } }, "r": "The audit found the cement was mostly sand. And confidence." },
-        { "l": "Blame strong winds", "s": "There was no wind.", "fx": { "media": -5, "pop": -2 }, "r": "The weather office released a statement: 'It was calm.'" }
-      ]
-    },
-    {
-      "id": "live_rain_potholes",
-      "era": "Monsoon",
-      "title": "The pothole that has its own fan page",
-      "min": 0,
-      "text": "A pothole on the main road is now big enough for ducks. Someone has opened an Instagram account for it. It has more followers than you.",
-      "ch": [
-        { "l": "Fill it overnight", "s": "₹5L. Quiet win.", "fx": { "white": -5, "pop": 2, "b": { "urb": 3 } }, "r": "The ducks have filed a complaint." },
-        { "l": "Inaugurate the pothole", "s": "Lean into the joke.", "fx": { "media": 4, "pop": 2, "loy": -2 }, "r": "You cut a ribbon over the water. The clip did numbers." },
-        { "l": "Ignore it", "s": "It will grow.", "fx": { "b": { "urb": -4 }, "media": -2 }, "r": "The pothole account is now endorsing your rival." }
-      ]
+     "l": "Say nothing",
+     "s": "Wait for counting.",
+     "fx": {
+      "karma": 2
+     },
+     "r": "Silence. The anchors found it suspicious."
     }
-  ]
+   ]
+  },
+  {
+   "id": "live_deepfake",
+   "era": "Social media",
+   "title": "A deepfake of you is dancing",
+   "min": 0,
+   "text": "A video of you dancing at a wedding you never attended has 4 million views. The dancing is better than yours.",
+   "ch": [
+    {
+     "l": "File a police complaint",
+     "s": "Cyber cell. Slow.",
+     "fx": {
+      "media": 1,
+      "stress": 3
+     },
+     "r": "The cyber cell asked you to forward the video to them. Forty times."
+    },
+    {
+     "l": "Claim it is real",
+     "s": "Youth love it.",
+     "fx": {
+      "pop": 3,
+      "b": {
+       "you": 5
+      },
+      "media": -1,
+      "karma": -2
+     },
+     "r": "You are now booked for three weddings."
+    },
+    {
+     "l": "Make a deepfake of the rival",
+     "s": "IT cell. Black ₹10L.",
+     "fx": {
+      "black": -10,
+      "rival": -6,
+      "scandal": 4,
+      "corr": 2
+     },
+     "r": "His video is worse. Yours is still trending."
+    }
+   ]
+  },
+  {
+   "id": "live_onion",
+   "era": "Prices",
+   "title": "Onions cost more than petrol",
+   "min": 0,
+   "text": "Onion prices have tripled. A vendor in your constituency is selling them on EMI.",
+   "ch": [
+    {
+     "l": "Open subsidised onion stalls",
+     "s": "₹20L. Long queues, good photos.",
+     "fx": {
+      "white": -20,
+      "pop": 4,
+      "b": {
+       "wom": 4,
+       "wor": 3
+      }
+     },
+     "r": "The queue was longer than the onion supply."
+    },
+    {
+     "l": "Blame hoarders",
+     "s": "Traders angry.",
+     "fx": {
+      "b": {
+       "tra": -5,
+       "wor": 2
+      },
+      "media": 1
+     },
+     "r": "The hoarders sent you a sack of onions. As a warning."
+    },
+    {
+     "l": "Say you don't eat onions",
+     "s": "A classic.",
+     "fx": {
+      "media": -4,
+      "pop": -2,
+      "b": {
+       "urb": -3
+      }
+     },
+     "r": "The clip was set to music by evening."
+    }
+   ]
+  },
+  {
+   "id": "live_heatwave",
+   "era": "Weather",
+   "title": "Heatwave on polling day",
+   "min": 1,
+   "text": "It is 47 degrees. Voters want water, shade and a reason to step out.",
+   "ch": [
+    {
+     "l": "Water booths at every station",
+     "s": "₹15L. Turnout up.",
+     "fx": {
+      "white": -15,
+      "pop": 3,
+      "karma": 3
+     },
+     "r": "Your booths had the coldest water and the warmest welcome."
+    },
+    {
+     "l": "Branded caps and umbrellas",
+     "s": "Black ₹10L. Code-of-conduct grey zone.",
+     "fx": {
+      "black": -10,
+      "pop": 2,
+      "heat": 4,
+      "corr": 2
+     },
+     "r": "The caps were confiscated. The umbrellas were not."
+    },
+    {
+     "l": "Stay in the AC",
+     "s": "Rest.",
+     "fx": {
+      "stress": -6,
+      "pop": -2
+     },
+     "r": "A photo of you in a cooled car went viral for the wrong reasons."
+    }
+   ]
+  },
+  {
+   "id": "live_cricket",
+   "era": "Sport",
+   "title": "The team wins the World Cup",
+   "min": 0,
+   "text": "The national team has won. Every leader in the country is rushing to be in the trophy photo.",
+   "ch": [
+    {
+     "l": "Fly to the airport welcome",
+     "s": "₹10L. Elbow your way in.",
+     "fx": {
+      "white": -10,
+      "pop": 3,
+      "b": {
+       "you": 4
+      },
+      "media": 2
+     },
+     "r": "You are in the photo, partly. Your left ear is very popular."
+    },
+    {
+     "l": "Announce a stadium in your name",
+     "s": "Bold.",
+     "fx": {
+      "media": -3,
+      "aura": 2,
+      "b": {
+       "you": -2
+      }
+     },
+     "r": "The players were asked about it. They smiled politely."
+    },
+    {
+     "l": "Just tweet congratulations",
+     "s": "Humble.",
+     "fx": {
+      "karma": 2
+     },
+     "r": "Your tweet had a typo in the captain's name."
+    }
+   ]
+  },
+  {
+   "id": "live_ai_jobs",
+   "era": "Economy",
+   "title": "Chatbots take the call-centre jobs",
+   "min": 1,
+   "text": "A call-centre park in the city has replaced half its staff with an AI that speaks eleven languages and never asks for a raise.",
+   "ch": [
+    {
+     "l": "Promise an AI skilling mission",
+     "s": "₹20L. Urban youth like it.",
+     "fx": {
+      "white": -20,
+      "b": {
+       "you": 5,
+       "urb": 3
+      },
+      "media": 2
+     },
+     "r": "The mission's website was built by the same AI."
+    },
+    {
+     "l": "Demand a ban on chatbots",
+     "s": "Workers cheer.",
+     "fx": {
+      "b": {
+       "wor": 5,
+       "urb": -4
+      },
+      "media": -1
+     },
+     "r": "You read the speech off a chatbot. Someone noticed."
+    },
+    {
+     "l": "Invest quietly in the AI firm",
+     "s": "Black ₹20L.",
+     "fx": {
+      "black": -20,
+      "corr": 3,
+      "scandal": 2
+     },
+     "r": "Your stake tripled. So did the questions."
+    }
+   ]
+  },
+  {
+   "id": "live_bridge",
+   "era": "Infrastructure",
+   "title": "The new bridge falls before its opening",
+   "min": 1,
+   "text": "A bridge that was due to be inaugurated next week has collapsed into the river. The ribbon is still on order.",
+   "ch": [
+    {
+     "l": "Suspend the junior engineer",
+     "s": "Classic.",
+     "fx": {
+      "media": -2,
+      "karma": -3
+     },
+     "r": "The engineer was suspended. The contractor got the rebuild contract."
+    },
+    {
+     "l": "Order a real audit",
+     "s": "Clean, but your party funds that contractor.",
+     "fx": {
+      "karma": 6,
+      "media": 3,
+      "loy": -5,
+      "rel": {
+       "tycoon": -8
+      }
+     },
+     "r": "The audit found the cement was mostly sand. And confidence."
+    },
+    {
+     "l": "Blame strong winds",
+     "s": "There was no wind.",
+     "fx": {
+      "media": -5,
+      "pop": -2
+     },
+     "r": "The weather office released a statement: 'It was calm.'"
+    }
+   ]
+  },
+  {
+   "id": "live_rain_potholes",
+   "era": "Monsoon",
+   "title": "The pothole that has its own fan page",
+   "min": 0,
+   "text": "A pothole on the main road is now big enough for ducks. Someone has opened an Instagram account for it. It has more followers than you.",
+   "ch": [
+    {
+     "l": "Fill it overnight",
+     "s": "₹5L. Quiet win.",
+     "fx": {
+      "white": -5,
+      "pop": 2,
+      "b": {
+       "urb": 3
+      }
+     },
+     "r": "The ducks have filed a complaint."
+    },
+    {
+     "l": "Inaugurate the pothole",
+     "s": "Lean into the joke.",
+     "fx": {
+      "media": 4,
+      "pop": 2,
+      "loy": -2
+     },
+     "r": "You cut a ribbon over the water. The clip did numbers."
+    },
+    {
+     "l": "Ignore it",
+     "s": "It will grow.",
+     "fx": {
+      "b": {
+       "urb": -4
+      },
+      "media": -2
+     },
+     "r": "The pothole account is now endorsing your rival."
+    }
+   ]
+  },
+  {
+   "id": "live_upi_down",
+   "era": "Tech",
+   "title": "UPI goes down on salary day",
+   "min": 0,
+   "text": "The payments network is down for three hours on the 1st. Chai stalls are accepting IOUs. One accepts your autograph.",
+   "ch": [
+    {
+     "l": "Blame a foreign cyberattack",
+     "s": "Loud and vague.",
+     "fx": {
+      "media": -1,
+      "loy": 2
+     },
+     "r": "The 'cyberattack' was a software update. Nobody corrected you."
+    },
+    {
+     "l": "Pay the chai stall in cash, on camera",
+     "s": "Relatable.",
+     "fx": {
+      "pop": 2,
+      "media": 2,
+      "white": -1
+     },
+     "r": "You paid ₹20 in coins. The clip did better than your manifesto."
+    },
+    {
+     "l": "Demand a parliamentary probe",
+     "s": "Scholar move.",
+     "fx": {
+      "media": 2,
+      "b": {
+       "urb": 3
+      }
+     },
+     "r": "A probe was announced. It will report after the next outage."
+    }
+   ]
+  },
+  {
+   "id": "live_ipl_auction",
+   "era": "Cricket",
+   "title": "Your nephew bids at the cricket auction",
+   "min": 1,
+   "text": "A franchise owned by 'a family friend' just paid ₹27 crore for a bowler. The paddle was held by your nephew.",
+   "ch": [
+    {
+     "l": "'He's just a fan'",
+     "s": "Deny the link.",
+     "fx": {
+      "scandal": 4,
+      "media": -2
+     },
+     "r": "The nephew posted a selfie from the owner's box. With you in it."
+    },
+    {
+     "l": "Throw the first ball at their match",
+     "s": "Own it.",
+     "fx": {
+      "pop": 3,
+      "aura": 2,
+      "scandal": 2
+     },
+     "r": "Your ball went wide. The crowd cheered anyway. The franchise's share price went up."
+    },
+    {
+     "l": "Skip the season entirely",
+     "s": "Low profile.",
+     "fx": {
+      "karma": 2
+     },
+     "r": "You watched on TV. Your nephew watched from the dugout."
+    }
+   ]
+  },
+  {
+   "id": "live_heatwave_ac",
+   "era": "Weather",
+   "title": "48°C and the minister's AC is on TV",
+   "min": 2,
+   "text": "A reporter filmed a minister's office with four ACs on and the door open. Outside, a power cut has lasted nine hours.",
+   "ch": [
+    {
+     "l": "Order cooling centres in every ward",
+     "s": "Real fix.",
+     "fx": {
+      "pop": 3,
+      "white": -10,
+      "b": {
+       "wor": 3
+      }
+     },
+     "r": "Water coolers arrived in 2 days. The photo of you drinking from one arrived in 2 minutes."
+    },
+    {
+     "l": "Say 'heat builds character'",
+     "s": "Classic.",
+     "fx": {
+      "pop": -3,
+      "media": -3
+     },
+     "r": "The clip trended with the hashtag #CharacterBuilding."
+    },
+    {
+     "l": "Switch off your own AC, live",
+     "s": "Theatre.",
+     "fx": {
+      "media": 3,
+      "stress": 4
+     },
+     "r": "You sat in the heat for an hour on camera. Then the AC came back on. The camera was off by then."
+    }
+   ]
+  },
+  {
+   "id": "live_reel_minister",
+   "era": "Social",
+   "title": "A minister's reel goes more viral than the budget",
+   "min": 1,
+   "text": "Your colleague lip-synced a film song in the Assembly corridor. It has 40 million views. The budget speech has 4,000.",
+   "ch": [
+    {
+     "l": "Make your own reel",
+     "s": "Join the trend.",
+     "fx": {
+      "army": 3,
+      "b": {
+       "you": 3
+      },
+      "media": -1
+     },
+     "r": "Your reel has 2 million views and one angry editorial."
+    },
+    {
+     "l": "Condemn it as 'unparliamentary'",
+     "s": "Moral high ground.",
+     "fx": {
+      "media": 2,
+      "b": {
+       "urb": 2,
+       "you": -2
+      }
+     },
+     "r": "The youth called you 'uncle'. Not affectionately."
+    },
+    {
+     "l": "Explain the budget in a reel",
+     "s": "Scholar meets algorithm.",
+     "fx": {
+      "media": 3,
+      "oratory": 1,
+      "b": {
+       "you": 2,
+       "urb": 2
+      }
+     },
+     "r": "Your 60-second budget explainer was the most watched budget content ever. That's not saying much."
+    }
+   ]
+  },
+  {
+   "id": "live_stadium_rename",
+   "era": "Sport",
+   "title": "The stadium gets renamed mid-match",
+   "min": 3,
+   "text": "At the innings break, the scoreboard announced the stadium now has a new name. The commentators are confused. So is the stadium.",
+   "ch": [
+    {
+     "l": "Suggest your own name for it",
+     "s": "Bold.",
+     "fx": {
+      "aura": 3,
+      "pop": -2,
+      "b": {
+       "urb": -3
+      }
+     },
+     "r": "The scoreboard now reads your name. The players asked for a new pitch instead."
+    },
+    {
+     "l": "Ask for the old name back",
+     "s": "Tradition.",
+     "fx": {
+      "pop": 2,
+      "b": {
+       "urb": 2
+      }
+     },
+     "r": "A committee was formed. It meets at the stadium. Under the new name."
+    },
+    {
+     "l": "Stay quiet and eat the samosa",
+     "s": "Smart.",
+     "fx": {
+      "stress": -3
+     },
+     "r": "The samosa was excellent. The controversy was not your problem."
+    }
+   ]
+  },
+  {
+   "id": "live_ai_teacher",
+   "era": "Tech",
+   "title": "AI teachers in government schools",
+   "min": 2,
+   "text": "The state has announced an AI tutor in every classroom. Most classrooms do not have electricity.",
+   "ch": [
+    {
+     "l": "Fix the wiring first",
+     "s": "Unglamorous.",
+     "fx": {
+      "pop": 2,
+      "white": -15,
+      "b": {
+       "far": 2,
+       "wom": 2
+      }
+     },
+     "r": "Your schools got fans and lights. The AI tutor is still 'coming soon'."
+    },
+    {
+     "l": "Inaugurate an AI tutor anyway",
+     "s": "Ribbon cut.",
+     "fx": {
+      "media": 3,
+      "scandal": 2
+     },
+     "r": "The tutor answered every question with 'please check your connection'."
+    },
+    {
+     "l": "Ask the AI to write your speech",
+     "s": "Efficient.",
+     "fx": {
+      "oratory": -1,
+      "media": 1
+     },
+     "r": "The speech was flawless. It thanked 'the honourable user'."
+    }
+   ]
+  },
+  {
+   "id": "live_flyover_fair",
+   "era": "Infrastructure",
+   "title": "A flyover opens, then closes for repairs",
+   "min": 1,
+   "text": "A flyover was inaugurated on Monday and shut on Tuesday 'for routine maintenance'. It has been routine for six weeks.",
+   "ch": [
+    {
+     "l": "Demand an audit of the contractor",
+     "s": "Accountability.",
+     "fx": {
+      "media": 3,
+      "rel": {
+       "tycoon": -5
+      },
+      "heat": -2
+     },
+     "r": "The contractor is now building a new flyover. In another district."
+    },
+    {
+     "l": "Inaugurate the repairs too",
+     "s": "Two ribbons.",
+     "fx": {
+      "media": -2,
+      "aura": 2
+     },
+     "r": "You cut a ribbon on the repair work. The ribbon was the only finished thing."
+    },
+    {
+     "l": "Blame the trucks",
+     "s": "Physics is anti-national.",
+     "fx": {
+      "loy": 2,
+      "b": {
+       "tra": -3
+      }
+     },
+     "r": "Truckers went on strike. The flyover remained empty, technically fixing the problem."
+    }
+   ]
+  },
+  {
+   "id": "live_wedding_traffic",
+   "era": "Celebrity",
+   "title": "A billionaire's wedding shuts the city",
+   "min": 3,
+   "text": "A tycoon's son's wedding has closed four roads, the airport and one lake. Guests include three ex-PMs and a pop star from abroad.",
+   "ch": [
+    {
+     "l": "Attend and dance",
+     "s": "Network.",
+     "fx": {
+      "network": 3,
+      "rel": {
+       "tycoon": 8
+      },
+      "pop": -2
+     },
+     "r": "You danced near the pop star. The photo crop removed you."
+    },
+    {
+     "l": "Complain about the traffic",
+     "s": "Populist.",
+     "fx": {
+      "pop": 3,
+      "rel": {
+       "tycoon": -6
+      }
+     },
+     "r": "Commuters loved it. The tycoon's channel stopped inviting you."
+    },
+    {
+     "l": "Send a gift and stay home",
+     "s": "Safe.",
+     "fx": {
+      "white": -5,
+      "rel": {
+       "tycoon": 3
+      }
+     },
+     "r": "Your silver bowl was placed next to 900 other silver bowls."
+    }
+   ]
+  },
+  {
+   "id": "live_cheetah_escape",
+   "era": "Wildlife",
+   "title": "The cheetahs leave the park",
+   "min": 2,
+   "text": "Two cheetahs walked out of the national park and into a village. They have been seen at a dhaba.",
+   "ch": [
+    {
+     "l": "Rush to the village with cameras",
+     "s": "Hero shot.",
+     "fx": {
+      "media": 3,
+      "stress": 3
+     },
+     "r": "The cheetahs left before you arrived. You were photographed with a very confused goat."
+    },
+    {
+     "l": "Fund a fence and ranger jobs",
+     "s": "Real fix.",
+     "fx": {
+      "white": -12,
+      "pop": 2,
+      "b": {
+       "far": 3
+      }
+     },
+     "r": "Thirty villagers got ranger jobs. The cheetahs got a fence. Everybody got a plan."
+    },
+    {
+     "l": "Say they are 'exploring the nation'",
+     "s": "Spin.",
+     "fx": {
+      "media": -1,
+      "loy": 1
+     },
+     "r": "#CheetahYatra trended. The cheetahs did not comment."
+    }
+   ]
+  },
+  {
+   "id": "live_leaked_chat",
+   "era": "Politics",
+   "title": "Your party's group chat leaks",
+   "min": 2,
+   "text": "Screenshots of your party's WhatsApp group are everywhere. Most messages are good-morning flowers. One is about tickets for sale.",
+   "ch": [
+    {
+     "l": "Call the screenshots fake",
+     "s": "Deny.",
+     "fx": {
+      "scandal": 4,
+      "loy": 2
+     },
+     "r": "A fact-checker matched the flowers to your phone."
+    },
+    {
+     "l": "Expel whoever leaked it",
+     "s": "Purge.",
+     "fx": {
+      "loy": -4,
+      "rival": -3
+     },
+     "r": "Three members were expelled. None of them leaked it."
+    },
+    {
+     "l": "Laugh it off on bakbak",
+     "s": "Charm.",
+     "fx": {
+      "army": 2,
+      "media": 1
+     },
+     "r": "You posted a good-morning flower. It went viral."
+    }
+   ]
+  },
+  {
+   "id": "live_exam_cancel",
+   "era": "Education",
+   "title": "The entrance exam is cancelled, again",
+   "min": 1,
+   "text": "Twenty lakh students sat the exam. The paper was on a messaging app the night before. It is cancelled for the third time.",
+   "ch": [
+    {
+     "l": "Meet the students, listen",
+     "s": "Show up.",
+     "fx": {
+      "pop": 3,
+      "b": {
+       "you": 4
+      },
+      "stress": 3
+     },
+     "r": "You listened for three hours. The students said you were the first to show up. Or stay."
+    },
+    {
+     "l": "Announce a 'paper-leak-proof' exam",
+     "s": "Big promise.",
+     "fx": {
+      "media": 2,
+      "b": {
+       "you": 2
+      }
+     },
+     "r": "The new exam paper leaked as a PDF titled 'leak-proof'."
+    },
+    {
+     "l": "Blame coaching centres",
+     "s": "Easy target.",
+     "fx": {
+      "b": {
+       "you": -2
+      },
+      "loy": 1
+     },
+     "r": "The coaching centres ran an ad about your statement. They're doing well."
+    }
+   ]
+  },
+  {
+   "id": "live_spy_app",
+   "era": "Tech",
+   "title": "Spyware found on journalists' phones",
+   "min": 3,
+   "text": "A lab says a spyware tool was found on the phones of six journalists and two opposition MPs. The government says it 'does not comment on hypotheticals'.",
+   "ch": [
+    {
+     "l": "Demand an independent inquiry",
+     "s": "Principled.",
+     "fx": {
+      "media": 3,
+      "b": {
+       "urb": 3
+      },
+      "rel": {
+       "journo": 8
+      }
+     },
+     "r": "An inquiry was set up. Its phones were checked first."
+    },
+    {
+     "l": "'Only criminals fear surveillance'",
+     "s": "Hardline.",
+     "fx": {
+      "media": -4,
+      "b": {
+       "urb": -4
+      },
+      "loy": 2
+     },
+     "r": "Your phone was the next one checked. By a journalist."
+    },
+    {
+     "l": "Change the subject to cricket",
+     "s": "Deflect.",
+     "fx": {
+      "stress": -2
+     },
+     "r": "India won. Nobody asked again. For a week."
+    }
+   ]
+  }
+ ]
 }
