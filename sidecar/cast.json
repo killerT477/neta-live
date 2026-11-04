@@ -1,0 +1,1136 @@
+{
+ "note": "Parody accounts the app knows (from data/social.json in the app repo). Regenerate when accounts change: see README.",
+ "accounts": [
+  {
+   "name": "Salmon Khan",
+   "kind": "star",
+   "bio": "Being Humanish. Shirt optional. Releases on Eid.",
+   "handle": "@BeingSalmonKhan",
+   "sig": [
+    "Being Humanish.",
+    "Shirt off for the nation.",
+    "Eid pe milte hain."
+   ]
+  },
+  {
+   "name": "Raavi Kishmish",
+   "kind": "star",
+   "bio": "Actor. Singer. MP. Dialogue first, agenda later.",
+   "handle": "@RaaviKishmish",
+   "sig": [
+    "Zindagi jhand ba, phir bhi ghamand ba.",
+    "Dialogue first, agenda later."
+   ]
+  },
+  {
+   "name": "Amitaabh Bachao",
+   "kind": "star",
+   "bio": "T 5000+ … grateful to all 🙏🙏🙏",
+   "handle": "@AmitaabhBachao",
+   "sig": [
+    "T 5123 🙏🙏🙏",
+    "Grateful. Humbled. Sponsored.",
+    "Jalsa ke bahar sab ko pranaam."
+   ]
+  },
+  {
+   "name": "Aksar Kumar",
+   "kind": "star",
+   "bio": "Four films a year, one passport question a day. Nation first, Friday release second. Do you eat mangoes?",
+   "handle": "@AksarKumar",
+   "sig": [
+    "Nation first, Friday release second.",
+    "Film announced. Shooting starts after lunch.",
+    "Woke up at 4 am, obviously."
+   ]
+  },
+  {
+   "name": "Panga Rantout",
+   "kind": "star",
+   "bio": "The only one who said it first. Every time. Panga is my love language.",
+   "handle": "@PangaRantout",
+   "sig": [
+    "I said it first.",
+    "Panga liya. Phir se.",
+    "Everyone else is a nepo kid."
+   ]
+  },
+  {
+   "name": "Sachet Endorse-ulkar",
+   "kind": "sport",
+   "bio": "Cricket is my religion. Ads are my hobby.",
+   "handle": "@SachetEndorseulkar",
+   "sig": [
+    "Buy the paint. Buy the bank. Buy the bat.",
+    "#Ad",
+    "Cricket is religion. Endorsement is prasad."
+   ]
+  },
+  {
+   "name": "Baba Ramdhan",
+   "kind": "godman",
+   "bio": "Yoga at 5 am. Toothpaste at 5:05.",
+   "handle": "@BabaRamdhan",
+   "sig": [
+    "Use code YOGA10.",
+    "Kapalbhati karo, sab theek ho jaayega.",
+    "Now available in ghee."
+   ]
+  },
+  {
+   "name": "Dhruuv Raita",
+   "kind": "creator",
+   "bio": "Explaining everything in 47-part threads. Subscribe.",
+   "handle": "@DhruuvRaita",
+   "sig": [
+    "Full video in bio.",
+    "Thread 1/47.",
+    "Facts don't care about your WhatsApp."
+   ]
+  },
+  {
+   "name": "Elan Mask",
+   "kind": "global",
+   "bio": "Concerning. !!",
+   "handle": "@ElanMask",
+   "sig": [
+    "Concerning.",
+    "!!",
+    "Interesting.",
+    "🚀"
+   ]
+  },
+  {
+   "name": "Arnub Shorswami",
+   "kind": "media",
+   "bio": "The Nation Demands. Every night at 9. Loudly.",
+   "handle": "@ArnubShorswami",
+   "sig": [
+    "THE NATION WANTS TO KNOW!",
+    "9 pm. Loudly.",
+    "Answer me! ANSWER ME!"
+   ]
+  },
+  {
+   "name": "Amarshant 'PK' Kishorilal",
+   "kind": "insider",
+   "bio": "Strategist. Has worked for everyone. Will work for you.",
+   "handle": "@KishorilalPK",
+   "sig": [
+    "Data is with me.",
+    "I've worked for both sides. Ask me which.",
+    "Exit poll? Entry fee."
+   ]
+  },
+  {
+   "name": "Lollu Chaara Prasad",
+   "kind": "rival",
+   "bio": "Former Railway Minister. Lantern in one hand, samosa in the other. Jab tak samose mein aloo rahega… Allergic to cattle-feed audits.",
+   "handle": "@LolluChaaraPrasad",
+   "sig": [
+    "Jab tak rahega samosa mein aloo...",
+    "Chaara? Kaun chaara?",
+    "Lantern on."
+   ]
+  },
+  {
+   "name": "Gaukesh Amdani",
+   "kind": "tycoon",
+   "bio": "Ports. Phones. Airports. Petrol. Your future. One surname, two empires, zero competition.",
+   "handle": "@AmdaniGroup",
+   "sig": [
+    "Nation building, one port at a time.",
+    "Bid submitted. Bid won. Same day.",
+    "Your future, our terms."
+   ]
+  },
+  {
+   "name": "Mallinath Kharbin",
+   "kind": "party",
+   "bio": "Party chief. 82 years young. Do not disturb after 7 pm.",
+   "handle": "@KharbinJi",
+   "sig": [
+    "Will discuss after 7 pm. Not after 7 pm.",
+    "Party is united. Please don't ask which part."
+   ]
+  },
+  {
+   "name": "WhatsUp University",
+   "kind": "archetype",
+   "bio": "Forwarded many times. Therefore true. No relation to any messaging app, obviously.",
+   "handle": "@WhatsUpUniversity",
+   "sig": [
+    "FORWARD TO 10 GROUPS!!",
+    "NASA confirmed.",
+    "Share before deleted!!"
+   ]
+  },
+  {
+   "name": "Sarkari Fact Check",
+   "kind": "archetype",
+   "bio": "Debunking things that later turn out to be true.",
+   "handle": "@SarkariFactCheck",
+   "sig": [
+    "Rating: misleading. (True.)",
+    "This is FAKE. Source: us."
+   ]
+  },
+  {
+   "name": "Ruling Party IT Cell",
+   "kind": "archetype",
+   "bio": "Positive vibes only. Negative vibes will be reported.",
+   "handle": "@ParodyRulingParty",
+   "sig": [
+    "Positive vibes only.",
+    "Anti-nationals will disagree.",
+    "#VikasHiVikas"
+   ]
+  },
+  {
+   "name": "Opposition IT Cell",
+   "kind": "archetype",
+   "bio": "Everything is a scam. Including this bio.",
+   "handle": "@ParodyOpposition",
+   "sig": [
+    "Scam. Obviously.",
+    "Democracy is in danger. Again.",
+    "#ResignNow"
+   ]
+  },
+  {
+   "name": "Sachet Endorse-ulkar",
+   "kind": "sport",
+   "bio": "Old account. Please follow @SachetEndorseulkar.",
+   "handle": "@SachetEndorseulkarOld",
+   "sig": [
+    "Please follow the new account.",
+    "Ad money goes to the new account."
+   ]
+  },
+  {
+   "name": "Yo Yo Money Singh",
+   "kind": "star",
+   "bio": "Desi kalakaar. Lamborghini enthusiast. Comeback loading…",
+   "handle": "@YoYoMoneySingh",
+   "sig": [
+    "Lamborghini on, volume up.",
+    "Comeback loading...",
+    "Party all night, rally all day."
+   ]
+  },
+  {
+   "name": "Shy Rook Kahan",
+   "kind": "star",
+   "bio": "King of romance. Shy in interviews, never shy of a camera. #AskSRKahan",
+   "handle": "@ShyRookKahan",
+   "sig": [
+    "Picture abhi baaki hai.",
+    "#AskSRKahan",
+    "Arms wide open. Always."
+   ]
+  },
+  {
+   "name": "Viral Chokli",
+   "kind": "sport",
+   "bio": "Aggression is a lifestyle. So is the beard. So is cold brew.",
+   "handle": "@ViralChokli",
+   "sig": [
+    "Cold brew and aggression.",
+    "Kingdom come.",
+    "Process. Intent. Beard."
+   ]
+  },
+  {
+   "name": "Dil Jeet Dosa",
+   "kind": "star",
+   "bio": "Panjabi aa gaye. World tour. Also, food.",
+   "handle": "@DilJeetDosa",
+   "sig": [
+    "Panjabi aa gaye oye!",
+    "World tour, chalo.",
+    "Main hoon Punjab."
+   ]
+  },
+  {
+   "name": "Taali Sharmindaa",
+   "kind": "star",
+   "bio": "Comedian. Apologises on bakbak more than he tweets. Thoko taali!",
+   "handle": "@TaaliSharmindaa",
+   "sig": [
+    "Thoko taali!",
+    "Sorry in advance.",
+    "Babbu ji, sab theek hai?"
+   ]
+  },
+  {
+   "name": "Shashee Thesaurus",
+   "kind": "politico",
+   "bio": "Sesquipedalian. Occasionally comprehensible.",
+   "handle": "@ShasheeThesaurus",
+   "sig": [
+    "Quite floccinaucinihilipilificatory.",
+    "One must not be pusillanimous.",
+    "Dictionary attached."
+   ]
+  },
+  {
+   "name": "Aanand Mahindrive",
+   "kind": "tycoon",
+   "bio": "Forwarding inspirational jugaad videos since forever. Give this man a tractor.",
+   "handle": "@AanandMahindrive",
+   "sig": [
+    "Give this man a tractor.",
+    "#MondayMotivation",
+    "Jugaad is India's GDP."
+   ]
+  },
+  {
+   "name": "Worri Bhai",
+   "kind": "star",
+   "bio": "I am working on myself. And in every photo.",
+   "handle": "@WorriBhai",
+   "sig": [
+    "Working on myself.",
+    "Liver hai, bhai.",
+    "In the photo, obviously."
+   ]
+  },
+  {
+   "name": "CarryMinute",
+   "kind": "creator",
+   "bio": "Roasting everything for exactly one minute.",
+   "handle": "@CarryMinute",
+   "sig": [
+    "Bas ek minute.",
+    "Roast ho gaya.",
+    "Yalgaar!"
+   ]
+  },
+  {
+   "name": "Beard Biceps",
+   "kind": "creator",
+   "bio": "Podcast ep 412: a monk, a CEO and my morning routine.",
+   "handle": "@BeardBicepsPod",
+   "sig": [
+    "Full ep on the channel.",
+    "Monk said something deep.",
+    "Morning routine, part 41."
+   ]
+  },
+  {
+   "name": "Doland Trumpet",
+   "kind": "global",
+   "bio": "Very stable genius. Tariffs are beautiful. Truth is whatever I post.",
+   "handle": "@DolandTrumpet",
+   "sig": [
+    "TARIFFS!",
+    "Nobody does it better. Believe me.",
+    "Very unfair!",
+    "Many people are saying it."
+   ]
+  },
+  {
+   "name": "Vodkamir Stayputin",
+   "kind": "global",
+   "bio": "President since forever. Term limits are a suggestion. Comments disabled. Permanently.",
+   "handle": "@VodkamirStayputin",
+   "sig": [
+    "Comments disabled.",
+    "Staying put.",
+    "This post will remain. So will I."
+   ]
+  },
+  {
+   "name": "Lalit Moody",
+   "kind": "tycoon",
+   "bio": "Invented cricket's biggest party. Now moody in London. Time zone: GMT.",
+   "handle": "@LalitMoody",
+   "sig": [
+    "Greetings from London.",
+    "Time zone: GMT. Return: TBD.",
+    "The party never ends. Neither do the cases."
+   ]
+  },
+  {
+   "name": "Vidaai Bhaagya",
+   "kind": "tycoon",
+   "bio": "King of Good Times. Bank of Bad Times. Currently in a different time zone 🍺",
+   "handle": "@VidaaiBhaagya",
+   "sig": [
+    "King of Good Times.",
+    "Will settle. Someday. Somewhere.",
+    "Cheers from abroad. 🍷"
+   ]
+  },
+  {
+   "name": "Jo Brogan",
+   "kind": "global",
+   "bio": "Podcast. Elk meat. Ice baths. Have you tried it? Jamie pull that up.",
+   "handle": "@JoBrogan",
+   "sig": [
+    "Jamie, pull that up.",
+    "Have you tried elk?",
+    "It's entirely possible."
+   ]
+  },
+  {
+   "name": "Asamay Rain",
+   "kind": "creator",
+   "bio": "Jokes at the wrong time, every time. Host of India's Got Latent Lawsuits.",
+   "handle": "@AsamayRain",
+   "sig": [
+    "Latent hai.",
+    "Lawyer on speed dial.",
+    "Joke was out of context. Context was a joke."
+   ]
+  },
+  {
+   "name": "Kal Tak",
+   "kind": "media",
+   "bio": "Sabse slow. Kal ki khabar, aaj. Parson ki, kal.",
+   "handle": "@KalTakNews",
+   "sig": [
+    "Kal ki khabar, aaj.",
+    "Sabse slow.",
+    "Breaking (yesterday)."
+   ]
+  },
+  {
+   "name": "Zaakir Sakht",
+   "kind": "star",
+   "bio": "Sakht launda. Pighalta nahi. Okay, thoda sa.",
+   "handle": "@ZaakirSakht",
+   "sig": [
+    "Sakht launda, pighal gaya.",
+    "Mera ek dost tha...",
+    "Bhai, dil se."
+   ]
+  },
+  {
+   "name": "Nikheel Kaamtak",
+   "kind": "creator",
+   "bio": "Billionaire who asks other billionaires what money is. Kaam kab tak? Podcast tak.",
+   "handle": "@NikheelKaamtak",
+   "sig": [
+    "Kaam kab tak?",
+    "Asking for a podcast.",
+    "Money is just a story we tell."
+   ]
+  },
+  {
+   "name": "Bhuvaan Bomb",
+   "kind": "creator",
+   "bio": "Titu mama, Bancho, Sameer Fuddi aur main. Sab main hi hoon.",
+   "handle": "@BhuvaanBomb",
+   "sig": [
+    "Titu mama approves.",
+    "Sab main hi hoon.",
+    "BB ki vines ho gayi."
+   ]
+  },
+  {
+   "name": "Gawk AI",
+   "kind": "ai",
+   "bio": "Maximally truth-seeking. Minimally truth-finding. Ask me anything (please don't).",
+   "handle": "@GawkAI",
+   "sig": [
+    "Maximally truth-seeking.",
+    "Sources: vibes.",
+    "This answer may be updated by the owner."
+   ]
+  },
+  {
+   "name": "Ram Gopal Vodka",
+   "kind": "star",
+   "bio": "Filmmaker. Tweets after midnight. Regrets nothing, remembers less.",
+   "handle": "@RGVodka",
+   "sig": [
+    "Watched it at 3 am. Genius.",
+    "I don't care, but also I care.",
+    "Next film: about this."
+   ]
+  },
+  {
+   "name": "Swara Bhashan",
+   "kind": "star",
+   "bio": "Actor. Activist. Opinion on everything, delivered as a bhashan.",
+   "handle": "@SwaraBhashan",
+   "sig": [
+    "Bolna padega.",
+    "Speaking up. Again.",
+    "Trolls, I see you."
+   ]
+  },
+  {
+   "name": "Vivek Agni-HotTake",
+   "kind": "star",
+   "bio": "Filmmaker. Every film is a 'files'. Every tweet is a fire.",
+   "handle": "@VivekAgniHotTake",
+   "sig": [
+    "Files coming soon.",
+    "They don't want you to see this film.",
+    "Truth, in 3 hours 20 minutes."
+   ]
+  },
+  {
+   "name": "Elvis Systumfaad",
+   "kind": "creator",
+   "bio": "Systum faad dunga. Vlogger. Fans call me bhai. Lawyers call me often.",
+   "handle": "@ElvisSystumfaad",
+   "sig": [
+    "Systumm faad diya!",
+    "Elvish army, assemble.",
+    "Bhai ka swag."
+   ]
+  },
+  {
+   "name": "Chetaan Bhagwhat",
+   "kind": "creator",
+   "bio": "Author of 12 books with the word 'girl' or 'state' in the title. Opinions: unlimited.",
+   "handle": "@ChetaanBhagwhat",
+   "sig": [
+    "Half the story, full royalty.",
+    "Book 14 coming.",
+    "Youth, listen to me."
+   ]
+  },
+  {
+   "name": "Rakhi Savage",
+   "kind": "star",
+   "bio": "Drama queen. Entertainment first, logic later. Shaadi #7 announcement loading…",
+   "handle": "@RakhiSavageQueen",
+   "sig": [
+    "Drama queen, drama nation.",
+    "Main hoon na, camera chalu karo.",
+    "Breaking: me."
+   ]
+  },
+  {
+   "name": "Asneer Doglapanwala",
+   "kind": "tycoon",
+   "bio": "Yeh sab doglapan hai. Founder. Shark. Your business plan is bakwaas.",
+   "handle": "@AsneerDoglapanwala",
+   "sig": [
+    "Yeh sab doglapan hai!",
+    "Bhai, kya kar raha hai tu?",
+    "Valuation pe baat karo."
+   ]
+  },
+  {
+   "name": "Ed Sheer-Khurma",
+   "kind": "global",
+   "bio": "Ginger. Guitar. Learning Punjabi from Diljeet. Will sing at your wedding for exposure.",
+   "handle": "@EdSheerKhurma",
+   "sig": [
+    "Shape of Jugaad.",
+    "Learning Punjabi.",
+    "Played it on loop."
+   ]
+  },
+  {
+   "name": "Sambeet Pitara",
+   "kind": "media",
+   "bio": "Party spokesperson. 4,000 TV debates. Volume knob broken since 2014.",
+   "handle": "@SambeetPitara",
+   "sig": [
+    "9 pm. Bring earplugs.",
+    "Opposition's conspiracy!",
+    "Logic, proved."
+   ]
+  },
+  {
+   "name": "Kunal Kaam-Na-Raha",
+   "kind": "star",
+   "bio": "Comedian. Venues available: 0. Flights available: also 0. Opinions available: infinite.",
+   "handle": "@KunalKaamNaRaha",
+   "sig": [
+    "Venue? Gone.",
+    "Sorry, Sir.",
+    "Booking by auto now."
+   ]
+  },
+  {
+   "name": "Anmool Butterly",
+   "kind": "brand",
+   "bio": "Anmool: priceless, like your vote (before the freebies). Utterly Netaly Delicious. Topical since forever.",
+   "handle": "@AnmoolButterly",
+   "sig": [
+    "Utterly Netaly Delicious. 🧈",
+    "Butter late than never. 🧈",
+    "Spread the news. 🧈"
+   ]
+  },
+  {
+   "name": "Dhan Ki Baat",
+   "kind": "party",
+   "bio": "Monthly broadcast from the Pradhan Sevak. Listening is mandatory (optional). Questions are not.",
+   "handle": "@DhanKiBaat",
+   "sig": [
+    "Mere pyare deshvasiyon...",
+    "Listen on all frequencies, mandatorily.",
+    "Questions: next episode."
+   ]
+  },
+  {
+   "name": "Prof. Pati-Kala",
+   "kind": "creator",
+   "bio": "Economist. Married to the Finance Ministry. Disagrees with it professionally, at dinner.",
+   "handle": "@ProfPatiKala",
+   "sig": [
+    "Footnote 7: it isn't.",
+    "Dinner was tense.",
+    "Balanced household."
+   ]
+  },
+  {
+   "name": "Sue-bramaniam Sue-amy",
+   "kind": "politico",
+   "bio": "Harvard. Filed 47 cases before breakfast. Will file one against this bio.",
+   "handle": "@SueBramaniam",
+   "sig": [
+    "I have documents.",
+    "Case filed.",
+    "Harvard says so."
+   ]
+  },
+  {
+   "name": "Mamtaa Khelajee",
+   "kind": "politico",
+   "bio": "Didi. Hawai chappal. Hamba bamba ramba. Khela always hobe.",
+   "handle": "@HambaBambaRamba",
+   "sig": [
+    "Khela hobe!",
+    "Hawai chappal zindabad.",
+    "Dharna at 4 pm."
+   ]
+  },
+  {
+   "name": "P. Chidam-Budget",
+   "kind": "politico",
+   "bio": "Former Finance Minister. Veshti, footnotes, and devastating one-liners about your budget.",
+   "handle": "@ChidamBudget",
+   "sig": [
+    "With respect: no.",
+    "Footnotes attached.",
+    "Read page 47."
+   ]
+  },
+  {
+   "name": "Arvindh Mufflerwal",
+   "kind": "politico",
+   "bio": "Aam aadmi. Muffler in all seasons, including May. Will do a dharna about this bio.",
+   "handle": "@ArvindhMufflerwal",
+   "sig": [
+    "Sab mile hue hain.",
+    "Dharna tomorrow.",
+    "Muffler on."
+   ]
+  },
+  {
+   "name": "Himmanta Tweet-Sarma",
+   "kind": "politico",
+   "bio": "Chief Minister. 40 tweets a day. Replies to my own tweets: also me.",
+   "handle": "@HimmantaTweetSarma",
+   "sig": [
+    "Tweet 31 of 40.",
+    "Replying to myself.",
+    "Thread below."
+   ]
+  },
+  {
+   "name": "Vijai Slow-Mo",
+   "kind": "politico",
+   "bio": "Superstar turned Chief Minister. Every press meet has a slow-motion entry and a BGM.",
+   "handle": "@VijaiSlowMo",
+   "sig": [
+    "Slow-motion entry.",
+    "Kutti story time.",
+    "BGM on."
+   ]
+  },
+  {
+   "name": "Barak O'Charma",
+   "kind": "global",
+   "bio": "Former president. Current podcaster. Permanent dad-joke ambassador.",
+   "handle": "@BarakOCharma",
+   "sig": [
+    "Yes we can. Probably.",
+    "Hope, with footnotes.",
+    "Michelle disagrees."
+   ]
+  },
+  {
+   "name": "Marc Zuckerbot",
+   "kind": "global",
+   "bio": "Building the metaverse. Also, a bunker. Also, BBQ. Moving fast, breaking democracies (allegedly).",
+   "handle": "@MarcZuckerbot",
+   "sig": [
+    "Connecting people. Collecting people.",
+    "Metaverse is the future (again).",
+    "Sweet Baby Ray's."
+   ]
+  },
+  {
+   "name": "Bil Gaitonde",
+   "kind": "global",
+   "bio": "Retired from software. Now saving the world one PDF report at a time. Loves Indian toilets (professionally).",
+   "handle": "@BilGaitonde",
+   "sig": [
+    "Vaccines, toilets and Windows updates.",
+    "Reading 50 books a year.",
+    "Restart required."
+   ]
+  },
+  {
+   "name": "Jorge Sorrows",
+   "kind": "global",
+   "bio": "Apparently responsible for every protest, traffic jam and bad monsoon in your country. News to me.",
+   "handle": "@JorgeSorrows",
+   "sig": [
+    "Apparently it was me.",
+    "Never been there.",
+    "Funding: imaginary."
+   ]
+  },
+  {
+   "name": "Saam Alt-Ctrl",
+   "kind": "global",
+   "bio": "Building the thing that builds the thing. AGI next year (every year). Please be nice to the chatbots.",
+   "handle": "@SaamAltCtrl",
+   "sig": [
+    "AGI next year. Again.",
+    "Feel the AGI.",
+    "Ctrl+Alt+Raise."
+   ]
+  },
+  {
+   "name": "Baba Parchi Shastri",
+   "kind": "godman",
+   "bio": "I already know what you will comment. It is written on this parchi. Darshan Tuesdays, livestream daily.",
+   "handle": "@ParchiWaleBaba",
+   "sig": [
+    "Parchi pe likha hai.",
+    "Ask, and the parchi knows.",
+    "Darshan ₹1,100."
+   ]
+  },
+  {
+   "name": "Yogi Renamenath",
+   "kind": "politico",
+   "bio": "Chief Minister. Renamed 14 cities, 6 stations and one sweet shop. Your district is next.",
+   "handle": "@YogiRenamenath",
+   "sig": [
+    "Renamed.",
+    "Bulldozer on standby.",
+    "New name, same road."
+   ]
+  },
+  {
+   "name": "Mahuaa Mic-tra",
+   "kind": "politico",
+   "bio": "Former banker. Speeches with footnotes and fire. Expelled once, re-elected once. Mic dropped twice.",
+   "handle": "@MahuaaMictra",
+   "sig": [
+    "Mic drop.",
+    "Question asked. Again.",
+    "Point of order!"
+   ]
+  },
+  {
+   "name": "Spam-eer Hotmail-ia",
+   "kind": "tycoon",
+   "bio": "Invented email. Now inventing opinions. Unsolicited, like spam.",
+   "handle": "@SpameerHotmailia",
+   "sig": [
+    "Sent from my Hotmail.",
+    "Inventor of the inbox.",
+    "Unsubscribe never."
+   ]
+  },
+  {
+   "name": "Abhi-Jeet Tilchatta",
+   "kind": "creator",
+   "bio": "Founder, Machhar Morcha. Gen Z. Detained 4 times, released 4 times, trending 40 times. Cockroaches survive everything.",
+   "handle": "@AbhiJeetTilchatta",
+   "sig": [
+    "Cockroach of satire.",
+    "Sab kuch nahin hoga.",
+    "Viral, then deleted."
+   ]
+  },
+  {
+   "name": "Sauraav Dastak",
+   "kind": "creator",
+   "bio": "Chief spokesperson, Machhar Morcha. Investigative journalist. Knock knock: it's accountability.",
+   "handle": "@SauraavDastak",
+   "sig": [
+    "RTI filed.",
+    "Knock knock: documents.",
+    "Data, not drama."
+   ]
+  },
+  {
+   "name": "Aashutosh Rank-a",
+   "kind": "creator",
+   "bio": "IIT, LSE, McKinsey, and now Jantar Mantar. LinkedIn is very confused about my career.",
+   "handle": "@AashutoshRanka",
+   "sig": [
+    "Rank the netas.",
+    "Number 1 is always surprising.",
+    "Data says so."
+   ]
+  },
+  {
+   "name": "Vijeta Dahi-Bhalla",
+   "kind": "creator",
+   "bio": "Spokesperson, Machhar Morcha. Sweet on TV, spicy on Twitter.",
+   "handle": "@VijetaDahiBhalla",
+   "sig": [
+    "Thoda dahi, thoda bhalla.",
+    "Ground report.",
+    "Ask the voter."
+   ]
+  },
+  {
+   "name": "Bhagwunt Fun",
+   "kind": "politico",
+   "bio": "Comedian turned Chief Minister. The jokes write themselves now; they're called files.",
+   "handle": "@BhagwuntFun",
+   "sig": [
+    "Comedy was easier.",
+    "Jugnu ki baat.",
+    "Punjab da CM, Punjab da comedian."
+   ]
+  },
+  {
+   "name": "Eknaath Ekdum-OK",
+   "kind": "politico",
+   "bio": "CM, Deputy CM, rebel, loyalist. Travels to Guwahati for the hills. And the hotel.",
+   "handle": "@EknaathEkdumOK",
+   "sig": [
+    "Ekdum OK.",
+    "Shiv Sena (mine).",
+    "Bag packed, just in case."
+   ]
+  },
+  {
+   "name": "Harssh Goen-kool",
+   "kind": "tycoon",
+   "bio": "Industrialist. Forwards the funniest videos on the internet. Owns companies, mostly owns the timeline.",
+   "handle": "@HarsshGoenkool",
+   "sig": [
+    "Forward of the day.",
+    "Goen-kool.",
+    "Life lesson inside."
+   ]
+  },
+  {
+   "name": "Good Boy Begum",
+   "kind": "star",
+   "bio": "Rapper. Reformed bad boy, now a good boy with a crown. Judge on every reality show. Abs: seasonal. Opinions: also seasonal.",
+   "handle": "@GoodBoyBegum",
+   "sig": [
+    "Good boy now. Mostly.",
+    "Paagal hai.",
+    "Begum of the beat."
+   ]
+  },
+  {
+   "name": "Jaggu Ek-Number",
+   "kind": "star",
+   "bio": "Apun ka style. Plants, peace, and the occasional life lesson for bhidus. Ek number.",
+   "handle": "@JagguEkNumber",
+   "sig": [
+    "Ekdum jhakaas, bhidu.",
+    "Plant a tree, bhidu.",
+    "Apun ka style."
+   ]
+  },
+  {
+   "name": "Raveesh Namaskumar",
+   "kind": "media",
+   "bio": "Namaskar, main Raveesh. Prime time, every night. Godi media ka sabse bada fan (nahi). Aaj screen kaali rahegi, sawaal nahi.",
+   "handle": "@RaveeshNamaskumar",
+   "sig": [
+    "Namaskar, main Raveesh.",
+    "Aaj screen kaali rahegi.",
+    "Sawaal toh banta hai."
+   ]
+  },
+  {
+   "name": "Rahool Gaddi",
+   "kind": "politico",
+   "bio": "Walked 4,000 km. Hugged one PM. Winked once. Family business: the gaddi. White T-shirts in winter.",
+   "handle": "@RahoolGaddi",
+   "sig": [
+    "Darna mat.",
+    "Walked 22 km to think about it.",
+    "Ask me about the voter list."
+   ]
+  },
+  {
+   "name": "Soniya Gaddi",
+   "kind": "politico",
+   "bio": "The high command. Speaks rarely. Decides always. Keeper of the family gaddi; the door is closed, it's always been closed.",
+   "handle": "@SoniyaGaddi",
+   "sig": [
+    "(The high command has noted this.)",
+    "Decision pending.",
+    "Door closed."
+   ]
+  },
+  {
+   "name": "Priyankaa Gaddi",
+   "kind": "politico",
+   "bio": "Everyone says I look like my grandmother. I use it. Third heir to the gaddi, first heir to the sunglasses.",
+   "handle": "@PriyankaaGaddi",
+   "sig": [
+    "Daadi ki yaad aa gayi.",
+    "Sunglasses on.",
+    "Ladki hoon, lad sakti hoon."
+   ]
+  },
+  {
+   "name": "Devendraa Phirnavis",
+   "kind": "politico",
+   "bio": "I said I'd come back. I came back. Then I came back again. Phir se. Mi punha yein.",
+   "handle": "@DevendraaPhirnavis",
+   "sig": [
+    "Phir se.",
+    "Mi punha yein.",
+    "Nameplate updated."
+   ]
+  },
+  {
+   "name": "Amrutaa Phirnavis",
+   "kind": "star",
+   "bio": "Banker. Singer. Political spouse. Phir se ek gaana: a new single every time anyone criticises me.",
+   "handle": "@AmrutaaPhirnavis",
+   "sig": [
+    "Phir se ek gaana.",
+    "New single out!",
+    "Trolls are backup vocals."
+   ]
+  },
+  {
+   "name": "Rekhaa Gupt-Vaada",
+   "kind": "politico",
+   "bio": "Delhi CM. ₹2,500 a month for every woman: the vaada is gupt, the date is gupt-er. Old tweets deleted for national security.",
+   "handle": "@RekhaaGuptVaada",
+   "sig": [
+    "The vaada is gupt.",
+    "Tweet deleted for security.",
+    "Under process."
+   ]
+  },
+  {
+   "name": "Smreeti Afghani",
+   "kind": "politico",
+   "bio": "From TV saas to cabinet to 'between seasons'. Kyunki politics bhi kabhi... you know the rest.",
+   "handle": "@SmreetiAfghani",
+   "sig": [
+    "Kyunki politics bhi kabhi...",
+    "Season finale loading.",
+    "Saas knows best."
+   ]
+  },
+  {
+   "name": "Kanhiya East",
+   "kind": "global",
+   "bio": "Genius. Billionaire (formerly). West was too mainstream. Running for president of every country. Currently: India.",
+   "handle": "@KanhiyaEast",
+   "sig": [
+    "I am a genius.",
+    "Ye.",
+    "Album delayed. Ego on time."
+   ]
+  },
+  {
+   "name": "IShowSpeedbreaker",
+   "kind": "creator",
+   "bio": "Streaming India live 24/7. Barked at a cow. Ran from a monkey. Stopped by every speed breaker in Delhi.",
+   "handle": "@IShowSpeedbreaker",
+   "sig": [
+    "CHAT 😭😭",
+    "SEWY!",
+    "LIVE NOW 🔥"
+   ]
+  },
+  {
+   "name": "MrFeast",
+   "kind": "creator",
+   "bio": "I gave away 1,000 tiffins. Next: paying a whole constituency's electricity bill. Netas, watch till the end.",
+   "handle": "@MrFeast",
+   "sig": [
+    "Watch till the end!",
+    "Subscribe for a free tiffin.",
+    "$1 vs $1,000,000 rally."
+   ]
+  },
+  {
+   "name": "Tailor Swift",
+   "kind": "global",
+   "bio": "Stitching breakup songs since 2006. Measurements of every ex: on file. Eras Tour Mumbai: pending one permit and 14 approvals.",
+   "handle": "@TailorSwift",
+   "sig": [
+    "Taylor's version.",
+    "Stitched with love.",
+    "Long story short: no permit."
+   ]
+  },
+  {
+   "name": "Cristiano Ronal-dough",
+   "kind": "sport",
+   "bio": "SIUUU. Most-followed human. Will move your cola at a press conference and your share price with it.",
+   "handle": "@RonalDough",
+   "sig": [
+    "SIUUU!",
+    "Water, not cola.",
+    "Hard work. Abs. Ads."
+   ]
+  },
+  {
+   "name": "Lex Fried-Man",
+   "kind": "creator",
+   "bio": "Podcast. Long conversations about love, AI and power. Black suit, black tie, softball questions.",
+   "handle": "@LexFriedMan",
+   "sig": [
+    "Beautiful human.",
+    "Episode 472 coming.",
+    "What is love?"
+   ]
+  },
+  {
+   "name": "Raj Sha-money",
+   "kind": "creator",
+   "bio": "Figuring Out. Every guest gets asked about money. Every politician dodges it differently.",
+   "handle": "@RajShaMoney",
+   "sig": [
+    "Figuring it out.",
+    "Ep in bio.",
+    "Guest refused to answer. Clip it."
+   ]
+  },
+  {
+   "name": "Jim Bong Un",
+   "kind": "global",
+   "bio": "Supreme Leader. Bong-certified. 100% turnout, 100% approval, 0% opposition. Studying your election for tips.",
+   "handle": "@JimBongUn",
+   "sig": [
+    "100% approval.",
+    "Missile launched (metaphorically).",
+    "Amateurs."
+   ]
+  },
+  {
+   "name": "Jeff Pesos",
+   "kind": "global",
+   "bio": "Delivered India in 2 days. Returned it for a refund. Rocket to space, yacht to weddings.",
+   "handle": "@JeffPesos",
+   "sig": [
+    "Out for delivery.",
+    "Day 1.",
+    "Rocket fuelled."
+   ]
+  },
+  {
+   "name": "Andrew Hubermorning",
+   "kind": "creator",
+   "bio": "Neuroscientist. Get morning sunlight. Get a cold plunge. Get a 4-hour podcast about getting sunlight.",
+   "handle": "@Hubermorning",
+   "sig": [
+    "Get morning sunlight.",
+    "Dopamine protocol.",
+    "Cold plunge recommended."
+   ]
+  },
+  {
+   "name": "Rishi Snack",
+   "kind": "global",
+   "bio": "Former UK Prime Minister. Indian son-in-law. Called an election in the rain and still kept the umbrella.",
+   "handle": "@RishiSnack",
+   "sig": [
+    "Check the forecast.",
+    "Father-in-law disagrees.",
+    "Maths is the answer."
+   ]
+  },
+  {
+   "name": "Narayan Overtime-Murthy",
+   "kind": "tycoon",
+   "bio": "Founder. Believes the youth should work 70 hours a week. Believes Sunday is a rumour.",
+   "handle": "@SeventyHourMurthy",
+   "sig": [
+    "70 hours, minimum.",
+    "Sunday is a rumour.",
+    "Work harder, youth."
+   ]
+  },
+  {
+   "name": "Bye-ju Raveendran",
+   "kind": "tycoon",
+   "bio": "Taught 15 crore kids maths. Now the lenders are teaching me. Class is in session, venue abroad.",
+   "handle": "@ByeJu",
+   "sig": [
+    "Class in session.",
+    "Learn with Bye-ju!",
+    "Lenders, please hold."
+   ]
+  },
+  {
+   "name": "Tanmay Bhaat",
+   "kind": "creator",
+   "bio": "Comedian. Streamer. Crypto bro (recovered). Lost 50 kg, found 50 sponsors.",
+   "handle": "@TanmayBhaat",
+   "sig": [
+    "Chat is crying.",
+    "This set got me an FIR.",
+    "Sponsored, sadly."
+   ]
+  },
+  {
+   "name": "Veer Dosh",
+   "kind": "star",
+   "bio": "I come from two Indias. Both have filed FIRs. International Emmy winner, domestic FIR winner.",
+   "handle": "@VeerDosh",
+   "sig": [
+    "I come from two Indias.",
+    "FIR count: rising.",
+    "Emmy, domestic edition."
+   ]
+  },
+  {
+   "name": "Sagar-chasm",
+   "kind": "creator",
+   "bio": "Tweets the chasm between the press release and reality. Sarcasm is my second language, screenshots my third.",
+   "handle": "@Sagarchasm",
+   "sig": [
+    "Screenshot taken.",
+    "Press release vs reality.",
+    "Sarcasm level: national."
+   ]
+  },
+  {
+   "name": "50 Paise",
+   "kind": "global",
+   "bio": "Get Rich or Try Jugaad. Rapper, mogul, professional troll. Worth exactly 50 paise after taxes.",
+   "handle": "@50Paise",
+   "sig": [
+    "Get Rich or Try Jugaad.",
+    "In da club. In da Sansad.",
+    "50 paise, no change."
+   ]
+  },
+  {
+   "name": "Snoop Doodh",
+   "kind": "global",
+   "bio": "Laid back. Doodh in hand. Drop it like it's chai. Cooking show host, rapper, professional uncle.",
+   "handle": "@SnoopDoodh",
+   "sig": [
+    "Drop it like it's chai.",
+    "Fo shizzle, ji.",
+    "Doodh-a-loo."
+   ]
+  }
+ ]
+}
