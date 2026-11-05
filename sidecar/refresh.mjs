@@ -55,12 +55,18 @@ const BANNED = new RegExp('\\b(' + [
   'flood\\w*', 'earthquake', 'cyclone', 'disaster\\w*', 'tragedy', 'tragic', 'plane crash', 'accident\\w*', 'stampede',
   'pakistan\\w*', 'kashmir\\w*', 'manipur', 'gaza', 'israel\\w*', 'ukrain\\w*', 'hostage\\w*', 'genocide', 'abortion',
   'immigra\\w*', 'deport\\w*', 'refugee\\w*', 'racis\\w*', 'nazi\\w*', 'hitler',
+  'cough syrup', 'poison\\w*', 'toxic', 'contaminat\\w*', 'outbreak', 'epidemic', 'hospitali[sz]ed', 'injur\\w*', 'child abuse',
 ].join('|') + ')\\b', 'i');
 
 const cast = JSON.parse(fs.readFileSync(path.join(HERE, 'cast.json'), 'utf8')).accounts;
 const HANDLES = new Set(cast.map(a => a.handle));
 const PARODY_NAMES = cast.map(a => a.name.toLowerCase());
 const BLOCK = JSON.parse(fs.readFileSync(path.join(HERE, 'blocklist.json'), 'utf8')).names.map(n => n.toLowerCase());
+// Single words of real names ("taylor" from "Taylor Swift") are blocked too, unless a parody name uses that word
+// ("swift" in "Tailor Swift") or it's too short/common to mean anything.
+const PARODY_WORDS = new Set(PARODY_NAMES.flatMap(n => n.split(/[^a-z]+/)));
+const COMMON_WORDS = new Set(['cent', 'mann', 'honey', 'badshah', 'grok', 'west', 'mark', 'bill', 'gates', 'shah', 'bhat', 'krishna', 'swamy', 'amul']);
+const BLOCK_WORDS = new Set(BLOCK.flatMap(n => n.split(/[^a-z]+/)).filter(w => w.length >= 4 && !PARODY_WORDS.has(w) && !COMMON_WORDS.has(w)));
 
 const today = new Date().toISOString().slice(0, 10);
 const stamp = today.replace(/-/g, '');
@@ -112,7 +118,8 @@ const SYSTEM = `You write content for Neta, a satirical mobile game about Indian
 Hard rules, no exceptions:
 - Never write any real person's real name. Only use the parody account names and handles you are given, or invent obviously fictional names.
 - Never name a real political party. Say "the ruling side", "the opposition", "the Blue party", "the Red party" or invent a pun name.
-- Never: deaths, violence, wars, terrorism, riots, religion, caste, sexual content, slurs, immigration, disasters, or claims that a real person committed a crime.
+- Never: deaths, violence, wars, terrorism, riots, religion, caste, sexual content, slurs, immigration, disasters, health scares (bad medicines, poisonings, outbreaks), anything where people were hurt, or claims that a real person committed a crime.
+- Never use a real person's first name or surname on its own either (not even in a pun like "Taylor's version").
 - Punch at power, hypocrisy, bureaucracy, campaign theatre and media circus. Light, warm, funny. Hinglish welcome for Indian characters.
 - Turn each real headline into its satirical spirit, not its facts. A real seat flip becomes "a seat changed colour"; a real scandal becomes generic political comedy.`;
 
@@ -156,10 +163,27 @@ const SCHEMA = {
   required: ['posts', 'events'],
 };
 
+// Busy/rate-limited answers are common on the free tier: wait and retry, then fall back to the lighter model.
+const FALLBACK_MODEL = 'gemini-flash-lite-latest';
+const sleep = ms => new Promise(r => setTimeout(r, ms));
 async function askGemini(prompt) {
+  const plan = [[MODEL, 0], [MODEL, 30000], [FALLBACK_MODEL, 0], [FALLBACK_MODEL, 60000], [MODEL, 120000]];
+  let last;
+  for (const [model, wait] of plan) {
+    if (wait) { console.log(`retrying ${model} in ${wait / 1000}s…`); await sleep(wait); }
+    try { return await askGeminiOnce(prompt, model); } catch (e) {
+      last = e;
+      if (!e.retry) throw e;
+      console.warn(e.message);
+    }
+  }
+  throw last;
+}
+
+async function askGeminiOnce(prompt, model) {
   const key = process.env.GEMINI_API_KEY;
   if (!key) throw new Error('GEMINI_API_KEY is not set (add it as a GitHub Actions secret)');
-  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`, {
+  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
     method: 'POST',
     headers: { 'content-type': 'application/json', 'x-goog-api-key': key },
     body: JSON.stringify({
@@ -170,7 +194,11 @@ async function askGemini(prompt) {
     signal: AbortSignal.timeout(120000),
   });
   const body = await res.json().catch(() => ({}));
-  if (!res.ok) throw new Error(`Gemini HTTP ${res.status}: ${body.error?.message || 'no detail'}`);
+  if (!res.ok) {
+    const err = new Error(`Gemini ${model} HTTP ${res.status}: ${body.error?.message || 'no detail'}`);
+    err.retry = res.status === 429 || res.status >= 500;
+    throw err;
+  }
   const text = body.candidates?.[0]?.content?.parts?.map(p => p.text || '').join('') || '';
   if (!text) throw new Error(`Gemini returned nothing (finish: ${body.candidates?.[0]?.finishReason || body.promptFeedback?.blockReason || '?'})`);
   return JSON.parse(text);
@@ -182,6 +210,7 @@ function unsafe(text, guesses) {
   const hit = text.match(BANNED);
   if (hit) return `banned word "${hit[0]}"`;
   for (const n of BLOCK) if (new RegExp(`\\b${n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`).test(t)) return `real name "${n}"`;
+  for (const w of t.split(/[^a-z]+/)) if (BLOCK_WORDS.has(w)) return `real name word "${w}"`;
   for (const g of guesses) if (t.includes(g) && !PARODY_NAMES.some(p => p.includes(g))) return `possible real name "${g}"`;
   return null;
 }
