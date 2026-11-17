@@ -1067,21 +1067,32 @@
    ]
   },
   {
-   "name": "Bye-ju Raveendran",
-   "kind": "tycoon",
-   "bio": "Taught 15 crore kids maths. Now the lenders are teaching me. Class is in session, venue abroad.",
-   "handle": "@ByeJu",
+   "name": "Gyaan Sir",
+   "kind": "creator",
+   "bio": "Patna se padhata hoon. Map on the blackboard, the whole world in one hour. Real name? Next class.",
+   "handle": "@GyaanSir",
    "sig": [
-    "Class in session.",
-    "Learn with Bye-ju!",
-    "Lenders, please hold."
+    "Samjhe ki nahi?",
+    "Chalk is cheaper than coaching.",
+    "Map dekho, beta."
    ]
   },
   {
-   "name": "Tanmay Bhaat",
+   "name": "Feesics Wallah",
+   "kind": "creator",
+   "bio": "Started on a free YouTube channel. Now a unicorn. Fees still low. Valuation, not so much.",
+   "handle": "@FeesicsWallah",
+   "sig": [
+    "Padhai karo, bas.",
+    "Fees kam, mehnat zyada.",
+    "Physics se politics tak."
+   ]
+  },
+  {
+   "name": "Tan-mai Bhaat",
    "kind": "creator",
    "bio": "Comedian. Streamer. Crypto bro (recovered). Lost 50 kg, found 50 sponsors.",
-   "handle": "@TanmayBhaat",
+   "handle": "@TanMaiBhaat",
    "sig": [
     "Chat is crying.",
     "This set got me an FIR.",
