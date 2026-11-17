@@ -1,0 +1,30 @@
+{
+ "posts": [
+  {"who": "@DolandTrumpet", "text": "Midterms were RIGGED by people who VOTED. Very unfair. The Senate changed colour overnight, like a mood ring. Tremendous mood ring, nobody has a bigger one.", "topic": "Senate control flips"},
+  {"who": "@BarakOCharma", "text": "Told you folks: midterms are where hope goes to get a recount. Proud of every intern who knocked on a door. And of the doors.", "topic": "midterm results"},
+  {"who": "@ElanMask", "text": "Counted the midterm votes myself with an AI. It says 42. Launching a rocket to the Senate to get a second opinion.", "topic": "midterm results"},
+  {"who": "@ArnubShorswami", "text": "THE NATION WANTS TO KNOW why American TV calls races in 6 hours when our counting takes 6 weeks and 6 debates! Tonight 9 PM, 14 panelists, 0 answers.", "topic": "US results called"},
+  {"who": "@RahoolGaddi", "text": "In America the opposition won. I am studying the technique. Step one: have an election. Step two: still working on it.", "topic": "midterm results"},
+  {"who": "@DhanKiBaat", "text": "Mitron, Amrika ke chunav dekh kar mann prasann hai. Hamare yahan 7 phase, unke yahan ek din. Hamara loktantra zyada lambi chalta hai.", "topic": "US election day"},
+  {"who": "@NotARealHandle", "text": "This handle does not exist and must be dropped.", "topic": "test"},
+  {"who": "@KalTakNews", "text": "BREAKING: Governor race decided by 312 votes and one very persuasive aunty in a parking lot. Live from the parking lot.", "topic": "close governor race"},
+  {"who": "@ArvindhMufflerwal", "text": "Sab mile hue hain. The war room in my muffler says otherwise.", "topic": "test of banned word"}
+ ],
+ "events": [
+  {"era": "Parliament", "title": "Winter session starts with a walkout", "min": 3,
+   "text": "Parliament's winter session opened and the opposition walked out before the national anthem finished echoing. The canteen reports record samosa sales.",
+   "ch": [
+    {"l": "Walk out with them", "s": "Free headlines.", "fx": {"media": 3, "loy": -2, "b": {"you": 2}}, "r": "You walked out, then walked back in for the samosas."},
+    {"l": "Stay and give a speech", "s": "Empty benches.", "fx": {"oratory": 2, "karma": 2, "rel": {"journo": 4}}, "r": "You gave a fiery speech to 11 people and a sleeping marshal."},
+    {"l": "Sneak to the canteen", "s": "Priorities.", "fx": {"stress": -6, "pop": -1, "white": -45}, "r": "The samosa was excellent. The CCTV footage was also excellent."}
+   ]},
+  {"era": "Bureaucracy", "title": "New portal crashes on day one", "min": 0,
+   "text": "A shiny new government portal for ration cards went down within an hour of launch. Its homepage still says 'Digital India'.",
+   "ch": [
+    {"l": "Blame the IT vendor", "s": "Tycoon unhappy.", "fx": {"rel": {"tycoon": -5}, "media": 2}, "r": "The vendor blamed the server. The server blamed the vendor."},
+    {"l": "Open a paper counter", "s": "Old school.", "fx": {"pop": 4, "b": {"wor": 3, "far": 2}, "white": -10}, "r": "The paper counter had a 3-hour queue and zero downtime."}
+   ]},
+  {"era": "Elections", "title": "Only one choice here", "min": 0, "text": "Broken event.", "ch": [{"l": "Only option", "fx": {"pop": 1}, "r": "Nothing."}]},
+  {"era": "Riots", "title": "Communal tension in town", "min": 0, "text": "Must be dropped by the filter.", "ch": [{"l": "a", "fx": {"pop": 1}, "r": "b"}, {"l": "c", "fx": {"pop": 1}, "r": "d"}]}
+ ]
+}
