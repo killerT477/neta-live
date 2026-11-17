@@ -979,10 +979,10 @@
    ]
   },
   {
-   "name": "Cristiano Ronal-dough",
+   "name": "Cristiano Pendu",
    "kind": "sport",
-   "bio": "SIUUU. Most-followed human. Will move your cola at a press conference and your share price with it.",
-   "handle": "@RonalDough",
+   "bio": "SIUUU. Most-followed human. Indian fans call him Pendu. He has decided this is a compliment.",
+   "handle": "@CristianoPendu",
    "sig": [
     "SIUUU!",
     "Water, not cola.",
@@ -1141,6 +1141,314 @@
     "Drop it like it's chai.",
     "Fo shizzle, ji.",
     "Doodh-a-loo."
+   ]
+  },
+  {
+   "name": "Suvendu Unworthy",
+   "kind": "politico",
+   "bio": "Leader of Opposition, Bengal. Knows the other camp's secrets because he used to live there.",
+   "handle": "@SuvenduUnworthy",
+   "sig": [
+    "Didi, I know where the files are.",
+    "I was there. I remember.",
+    "Nandigram has a long memory."
+   ]
+  },
+  {
+   "name": "Amit Shatranj",
+   "kind": "politico",
+   "bio": "Home Minister. Plays every election like chess, three moves ahead. The board is the country.",
+   "handle": "@AmitShatranj",
+   "sig": [
+    "Check.",
+    "Aap chronology samajhiye.",
+    "The next move is already made."
+   ]
+  },
+  {
+   "name": "S. Jaishakkarpara",
+   "kind": "politico",
+   "bio": "External Affairs. Sweet to look at, crisp when bitten. Your problems are not automatically the world's problems.",
+   "handle": "@JaiShakkarpara",
+   "sig": [
+    "That is your problem, not the world’s.",
+    "We buy what is good for us. Thank you.",
+    "Next question."
+   ]
+  },
+  {
+   "name": "Nirmala Sita-Taxman",
+   "kind": "politico",
+   "bio": "Finance Minister. Every February, a new slab. Every March, a new clarification.",
+   "handle": "@NirmalaSitaTaxman",
+   "sig": [
+    "There is a slab for that.",
+    "The middle class will be relieved. Eventually.",
+    "Read the fine print."
+   ]
+  },
+  {
+   "name": "Thukuram Munde",
+   "kind": "babu",
+   "bio": "IAS. Honest, strict, on time. Transferred so often the packing tape has its own file number.",
+   "handle": "@ThukuramMunde",
+   "sig": [
+    "Office opens at 9:45. Not 9:46.",
+    "Transfer order noted. Boxes are packed.",
+    "Rules are rules."
+   ]
+  },
+  {
+   "name": "Leo Pessi",
+   "kind": "sport",
+   "bio": "Quiet. Short. Eight Ballon d'Ors. Lets the feet talk. The feet have an agent.",
+   "handle": "@LeoPessi",
+   "sig": [
+    "🐐",
+    "...",
+    "Gracias, India."
+   ]
+  },
+  {
+   "name": "Shaktimoan",
+   "kind": "star",
+   "bio": "India's first superhero. Retired from saving the world, now saving it from modern films, one complaint at a time.",
+   "handle": "@Shaktimoan",
+   "sig": [
+    "Sorry Shaktimoan.",
+    "Andhera kayam rahe? Not on my watch.",
+    "In my time, heroes wore full sleeves."
+   ]
+  },
+  {
+   "name": "Imran Khan't",
+   "kind": "global",
+   "bio": "World Cup captain. Then prime minister. Then a very long press conference. Reverse swing still works.",
+   "handle": "@ImranKhant",
+   "sig": [
+    "Ghabrana nahi hai.",
+    "A captain never panics.",
+    "Like 1992."
+   ]
+  },
+  {
+   "name": "Imran Kab-Khan",
+   "kind": "star",
+   "bio": "Actor. Made one perfect college film, then vanished. Fans have been asking 'kab?' for ten years.",
+   "handle": "@ImranKabKhan",
+   "sig": [
+    "Comeback soon. Define soon.",
+    "Jaane tu... ya jaane na?",
+    "Still here, just quieter."
+   ]
+  },
+  {
+   "name": "Rajkhatam Rao",
+   "kind": "star",
+   "bio": "Actor. Plays the small-town guy so well the small town sends him its bills. Ghee khatam.",
+   "handle": "@RajkhatamRao",
+   "sig": [
+    "Ghee khatam.",
+    "Small town, big dreams, smaller budget.",
+    "Method acting, madness method."
+   ]
+  },
+  {
+   "name": "Varun Thumkawan",
+   "kind": "star",
+   "bio": "Actor. Every film has a dance number, even the serious ones. Especially the serious ones.",
+   "handle": "@VarunThumkawan",
+   "sig": [
+    "Dance first, plot later.",
+    "Biceps by the gym, steps by the choreographer.",
+    "Thumka is a love language."
+   ]
+  },
+  {
+   "name": "Jhatkalal Gada",
+   "kind": "sitcom",
+   "bio": "Owner, Gada Electronics. Gets one shock a day, sometimes from the wiring. Loud shirts, louder problems.",
+   "handle": "@JhatkalalGada",
+   "sig": [
+    "Nonsense!",
+    "Aye Tapu ke bachche!",
+    "Hey Bhagwan, ab kya hoga?"
+   ]
+  },
+  {
+   "name": "Dayaa Garbaa",
+   "kind": "sitcom",
+   "bio": "Gokuldham's garba champion. Calls Ahmedabad on speaker so the whole society hears. Hey Maa Mataji!",
+   "handle": "@DayaaGarbaa",
+   "sig": [
+    "Hey Maa Mataji!",
+    "Tappu ke papa!",
+    "Garba karein?"
+   ]
+  },
+  {
+   "name": "Champaklal Chhadi",
+   "kind": "sitcom",
+   "bio": "Bapuji. Senior-most resident. Owns one walking stick and every opinion.",
+   "handle": "@ChampaklalChhadi",
+   "sig": [
+    "Jetha!",
+    "Humare zamaane mein...",
+    "Sanskaar first."
+   ]
+  },
+  {
+   "name": "Tapu Tofaani",
+   "kind": "sitcom",
+   "bio": "Leader of the Tapu Sena. Has caused more chaos in the society than three elections combined.",
+   "handle": "@TapuTofaani",
+   "sig": [
+    "Tapu Sena, assemble!",
+    "Papa ko mat batana.",
+    "Plan ready hai."
+   ]
+  },
+  {
+   "name": "Atmaram Bhidu",
+   "kind": "sitcom",
+   "bio": "Ek-hi Secretary of Gokuldham Society. Has issued a notice about this bio.",
+   "handle": "@AtmaramBhidu",
+   "sig": [
+    "Ek hi Secretary.",
+    "Notice board pe likha hai.",
+    "Society ke niyam!"
+   ]
+  },
+  {
+   "name": "Madhavi Papadwali",
+   "kind": "sitcom",
+   "bio": "Runs Gokuldham's papad and achaar business out of flat B-15. Turnover larger than some ministries.",
+   "handle": "@MadhaviPapadwali",
+   "sig": [
+    "Papad lo, achaar lo.",
+    "Home-made, GST-paid.",
+    "Order WhatsApp pe."
+   ]
+  },
+  {
+   "name": "Popatlal Kanwara",
+   "kind": "sitcom",
+   "bio": "Fearless reporter, Toofan Express. Carries an umbrella in all seasons. Will shake the world. Eventually.",
+   "handle": "@PopatlalKanwara",
+   "sig": [
+    "Duniya hila dunga!",
+    "Cancel! Cancel! Cancel!",
+    "Toofan Express exclusive."
+   ]
+  },
+  {
+   "name": "Taarak Lekhta",
+   "kind": "sitcom",
+   "bio": "Writer. Gokuldham's narrator, advisor and full-time fixer of Jhatkalal's problems.",
+   "handle": "@TaarakLekhta",
+   "sig": [
+    "Jetha bhai, shaant ho jaiye.",
+    "Har problem ka solution hai.",
+    "Column out tomorrow."
+   ]
+  },
+  {
+   "name": "Anjali Dieta",
+   "kind": "sitcom",
+   "bio": "Gokuldham's health guru. Karela juice for breakfast, lunch and moral support.",
+   "handle": "@AnjaliDieta",
+   "sig": [
+    "Karela juice piyo.",
+    "No oil, no sugar, no excuses.",
+    "Health is wealth."
+   ]
+  },
+  {
+   "name": "Babita Bye-yer",
+   "kind": "sitcom",
+   "bio": "Gokuldham resident, social worker, master of the polite 'bye' when a neighbour talks too long.",
+   "handle": "@BabitaByeyer",
+   "sig": [
+    "Okay, bye!",
+    "Jethaji, please.",
+    "For a good cause."
+   ]
+  },
+  {
+   "name": "Krishnan Rocket-Iyer",
+   "kind": "sitcom",
+   "bio": "Scientist. Builds rockets, can't build a friendship with Jhatkalal. Very proud of both.",
+   "handle": "@KrishnanRocketIyer",
+   "sig": [
+    "Aiyyo!",
+    "Scientifically speaking...",
+    "Jethalal, keep away."
+   ]
+  },
+  {
+   "name": "Roshan Singh Soda",
+   "kind": "sitcom",
+   "bio": "Gokuldham's party starter. If there is a celebration, he brought it. If there isn't, he started one.",
+   "handle": "@RoshanSinghSoda",
+   "sig": [
+    "Balle balle!",
+    "Party toh banti hai!",
+    "Oye, chill maar."
+   ]
+  },
+  {
+   "name": "Dr. Khaanaraj Hathi",
+   "kind": "sitcom",
+   "bio": "Doctor, Gokuldham. Prescribes rest, eats everything at every function. Sahi baat hai.",
+   "handle": "@DrKhaanarajHathi",
+   "sig": [
+    "Sahi baat hai.",
+    "Khaana kab lagega?",
+    "Doctor ki salaah lo."
+   ]
+  },
+  {
+   "name": "Nattu Kaka Pagaar",
+   "kind": "sitcom",
+   "bio": "Senior staff, Gada Electronics. Has asked for a raise every day since joining. Still asking.",
+   "handle": "@NattuKakaPagaar",
+   "sig": [
+    "Pagaar badhao, sheth.",
+    "Bagha, chai la.",
+    "Main hi toh hoon is dukaan ka asli maalik."
+   ]
+  },
+  {
+   "name": "Sundar Udhaarlal",
+   "kind": "sitcom",
+   "bio": "Dayaa's brother. Arrives with a business plan, leaves with your money. 'Jijaji, bas ek last time.'",
+   "handle": "@SundarUdhaarlal",
+   "sig": [
+    "Jijaji, bas ek last time.",
+    "Return pakka, 200%.",
+    "Investment hai, kharcha nahi."
+   ]
+  },
+  {
+   "name": "Goli Golgappa",
+   "kind": "sitcom",
+   "bio": "Tapu Sena member. Will join any rally that has food. Will leave any rally that runs out.",
+   "handle": "@GoliGolgappa",
+   "sig": [
+    "Khaana kahan hai?",
+    "Vada pav party!",
+    "Main toh sirf dekhne aaya tha."
+   ]
+  },
+  {
+   "name": "Inspector Chaalu Pandey",
+   "kind": "sitcom",
+   "bio": "Police inspector, Gokuldham area. Always on duty, always eating at someone's house while on duty.",
+   "handle": "@InspectorChaaluPandey",
+   "sig": [
+    "Main duty pe hoon.",
+    "Chai milegi?",
+    "Kanoon ke haath lambe hain, plate bhi."
    ]
   }
  ]
